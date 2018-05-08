@@ -7,9 +7,15 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.channel.send('PONG!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'bing') {
+    	message.reply('BONG!');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(:NDQwODkzNTM0MDM2NDI2NzUy.DdNvGQ.euYs-RyLWNPRjoRZHhkw4K66rOo);//where BOT_TOKEN is the token of our bot 
+client.login(NDQwODkzNTM0MDM2NDI2NzUy.DdNvGQ.euYs-RyLWNPRjoRZHhkw4K66rOo);

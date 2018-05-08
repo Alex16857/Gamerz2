@@ -1,7 +1,7 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "Gamerz",
+  "description": "Offical Bot Of The Gamerz Server.",
+  "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"

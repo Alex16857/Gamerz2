@@ -18,4 +18,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(NDQwODkzNTM0MDM2NDI2NzUy.DdNvGQ.euYs-RyLWNPRjoRZHhkw4K66rOo);
+client.login(NDQwODkzNTM0MDM2NDI2NzUy.DdODXQ.Ewe-Ol1wqS_n9FcjN0UuJoNO3kg);

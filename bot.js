@@ -1,30 +1,31 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const prefix = "g-"
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === prefix + 'ping') {
     	message.channel.send('cool');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === prefix + 'ping') {
     	message.channel.send('cool');
   	}
 });     
         
 client.on('message', message => {
-    if (message.content === 'pong') {
+    if (message.content === prefix + 'pong') {
     	message.channel.send('ping');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'Start') {
+    if (message.content === prefix + 'Start') {
     	message.channel.send('**Hello and welcome to Gamerz. Here I hope you have a good time! First you must read the rules.
 #1 Don't spam outside of #spam
 #2 Don't advertise outside of #ads

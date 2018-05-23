@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "g-"
-let guild = member.guild;
-client.on('ready', () => {    
+const prefix = "g>"
+   
 });
 client.on('message', message => {
     if (message.content === prefix + 'ping') {
